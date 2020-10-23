@@ -31,8 +31,20 @@ namespace Caesar_cipher
 
         private static string text_input()
         {
+            string text;
+
             Console.Write("Enter text to encrypt: ");
-            string text = Console.ReadLine();
+            while (true)
+            {
+                text = Console.ReadLine().Trim();
+                if (text == "")
+                {
+                    Console.Write("Text field can't be empty. Enter text to encrypt: ");
+                } else
+                {
+                    break;
+                }
+            }
 
             return text;
         }
