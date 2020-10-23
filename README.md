@@ -17,6 +17,7 @@ Where:
 ``En(x) = ((x - n) - first_letter_ascii_code)mod26 + first_letter_ascii_code``
 ### Example
 **text** - defend the east wall of the castle
+
 **shift** - 1
 
 **encrypted** - efgfoe uif fbtu xbmm pg uif dbtumf
